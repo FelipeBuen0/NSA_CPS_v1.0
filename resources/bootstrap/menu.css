@@ -1,0 +1,72 @@
+
+.sideMenu {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.4s;
+    padding-top: 40px;
+}
+
+#items {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #9c9797;
+    transition: 0.3s;
+}
+
+#items:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: #ebe7e7;
+}
+
+#items:active {
+    transition: 0s;
+    color: #ffffff;
+}
+
+.sideMenu .closebtn {
+    position: absolute;
+    text-decoration: none;
+    color: #f1f1f1;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sideMenu {
+        padding-top: 15px;
+    }
+
+    .sideMenu a {
+        font-size: 18px;
+    }
+}
+.logout {
+    background-color: #e95e46;
+    cursor: pointer;
+    color: #f8f5f5 !important;
+}
+.logout:hover {
+    background-color: #e64b30 !important ;
+    transition: 0s !important;
+}
+.logout:active {
+    background-color: #ff0404 !important;
+    transition: 0s !important;
+}
+.mi10p {
+    background-color: #111;
+    color: #f1f1f1;
+    height: 100%;
+    position:fixed;
+    padding: 5px;
+}

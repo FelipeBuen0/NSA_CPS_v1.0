@@ -1,0 +1,21 @@
+#splogo_photo {
+    position: relative;
+    margin-left: 30px;
+    width: 15%;
+    height: 15%;
+}
+
+#cpslogo_photo {
+    position: relative;
+    left: 65%;
+    width: 15%;
+    height: 15%;
+}
+#user_photo {
+    position: sticky;
+    margin-top: 10px;
+    left: 5%;
+    width: 5%;
+    height: 10%;
+    border: 1px solid #111;
+}
